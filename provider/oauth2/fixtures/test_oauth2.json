@@ -6,7 +6,7 @@
             "client_secret": "35c25066023f32c4f098d1e40de94f07f98c1acf", 
             "client_type": 0, 
             "url": "http://example.com/", 
-            "user": 1
+            "users": [1]
         }, 
         "model": "oauth2.client", 
         "pk": 1
@@ -18,7 +18,7 @@
             "client_secret": "1944b695ca0cbf4f419a7d5c7e4fed13a660bc04", 
             "client_type": 0, 
             "url": "http://example.com/", 
-            "user": 2
+            "users": [2]
         }, 
         "model": "oauth2.client", 
         "pk": 2
