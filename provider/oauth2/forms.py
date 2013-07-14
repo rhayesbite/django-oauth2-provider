@@ -19,7 +19,7 @@ class ClientForm(forms.ModelForm):
         fields = ('name', 'url', 'redirect_uri', 'client_type')
 
     def save(self, user=None, **kwargs):
-        self.instance.user = user
+        self.instance.users.add(user)
         return super(ClientForm, self).save(**kwargs)
 
 
